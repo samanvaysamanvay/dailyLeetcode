@@ -13,7 +13,7 @@ public:
                 if (direction == 0) direction = -1;
                 else if (direction == 1) return false;
             }
-        }
+        }  
 
         return true;
     }
