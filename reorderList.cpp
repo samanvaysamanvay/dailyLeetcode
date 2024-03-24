@@ -31,5 +31,4 @@ public:
             i++;
         }
         temp->next=NULL;
-    }
-};
+    };
