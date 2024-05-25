@@ -22,7 +22,7 @@ public:
         vector<string>res, temp;
         unordered_set<string>st(wordDict.begin(), wordDict.end());
         
-        solve(s, res, st, temp);
+        solve(s, res, st, temp);  
         return res;
     }
 };
