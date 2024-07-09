@@ -10,4 +10,4 @@ public:
         }
         return ans/customers.size();
     }
-};
+}; 
