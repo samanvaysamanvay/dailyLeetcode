@@ -6,7 +6,7 @@ public:
             if(c=='1') rightOnes++;
         
         int score = 0;
-        for(int i=0; i<s.length()-1; i++){
+        for(int i=0; i<s.length()-1; i++) {
             if(s[i]=='0') leftZeroes++;
             else rightOnes--;
             score = max(score, leftZeroes + rightOnes);
