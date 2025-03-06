@@ -11,4 +11,4 @@ class Solution {
             long long c1 = sum - N * (N + 1)/2,  c2 = sqrSum - N*(N+1)*(2*N + 1)/6;
             return {(int)(c2/c1 + c1)/2, (int)(c2/c1 - c1)/2};
         }
-    };
+    }; 
